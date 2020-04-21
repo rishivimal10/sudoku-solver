@@ -38,6 +38,8 @@ def solve(board):
 
             solved_board[empty_x][empty_y] = 0
 
+    return False
+
 
 def is_valid(board, row, column, check):
 
